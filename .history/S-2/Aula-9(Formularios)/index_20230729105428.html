@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Formulários</h1>
+    <hr>
+    <form method="post">
+        <div>
+            <label for="txtNomeCompleto">Nome Completo</label><br>
+            <input id="txtNomeCompleto" type="text" name="NomeCompleto" placeholder="Nome Completo">
+        </div>
+        <div>
+            <label for="txtEmail">E-mail</label><br>
+            <input id="txtEmail" type="text" name="Email" placeholder="Seu melhor E-mail">
+        </div>
+        <fieldset>
+            <legend>Qual seu cargo?</legend>
+            <input type="radio" name="Cargo" id="rdProgramador" value="p">
+            <label for="rdProgramador"> Programador</label>&nbsp;&nbsp;<br>
+            <input type="radio" name="Cargo" id="rdWebDesigner" value="w">
+            <label for="rdWebDesigner"> Web Designer</label>&nbsp;&nbsp;
+        </fieldset>
+        <div>
+            <input type="checkbox" name="aceito" id="chkAceito">
+            <label for="chkAceito">Aceito os termos de uso</label>
+        </div>
+        <div>
+            <label for=""></label>
+            <select name="Estado" id="slcEstado">
+                <optgroup label="Norte">
+                <option value="AM">Amazonas</option>
+                <option value="RO">Rondônia</option>
+                <option value="AC">Acre</option>
+                <option value="RR">Roraima</option>
+                <option value="PA" selected>Pará</option>
+                <option value="AP">Amapá</option>
+                </optgroup>
+                <optgroup label="Sudeste">
+                <option value="ES">Espirito Santo</option>
+                <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="enviar">
+        </div>
+    </form>
+
+</body>
+
+</html>
