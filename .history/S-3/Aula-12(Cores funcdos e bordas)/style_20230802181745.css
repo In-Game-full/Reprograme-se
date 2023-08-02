@@ -1,0 +1,17 @@
+body{
+    /*background-color: rgb(164, 164, 106);
+    background-image: url("/S-3/Aula-12\(Cores\ funcdos\ e\ bordas\)/img/fundo.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;*/
+    background: rgb(164, 164, 106) url("/S-3/Aula-12\(Cores\ funcdos\ e\ bordas\)/img/fundo.png") no-repeat right bottom fixed;
+}
+p{
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    border-color: white;
+    border-style: dashed;
+    border-width: 3px;
+    border-left-color: 10px;
+    borde
+}
