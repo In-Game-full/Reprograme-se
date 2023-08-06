@@ -1,0 +1,11 @@
+h1{
+    position: relative;
+    text-align: center;
+    color:#03a9f4 ;
+    font-size: 5em;
+}
+
+h1::after{
+    content: "";
+    background-image: linear-gradient();
+}

@@ -1,0 +1,15 @@
+/* pseudo seletor "after" permite colocar conteudo depois de um determinado seletor */
+p::after{
+    content: 'Estou após o parágrafo';
+    color: red;
+}
+p::before{
+    content:'Estou antes do parágrafo ';
+    color: red;
+}
+
+h1::after{
+    content: "";
+    background-image: linear-gradient(120deg, #e5ea15, #00c4ff);
+    width: 5; /* largura da borda*/
+}

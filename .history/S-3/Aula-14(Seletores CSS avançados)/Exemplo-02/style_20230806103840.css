@@ -1,0 +1,17 @@
+h1{
+    position: relative;
+    text-align: center;
+    color: #00c4ff;
+    
+}
+
+h1::after{
+    content: "";
+    background-image: linear-gradient(120deg), #e5ea, #00c4ff;
+    width: 90%;
+    height: 10px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%) skew(-50deg);
+}

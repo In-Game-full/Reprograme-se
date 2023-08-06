@@ -1,0 +1,21 @@
+body, a{
+    color: gray;
+}
+h1{ font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+p{
+    text-align: justify;
+    /* direction: rtl;
+    unicode-bidi: bidi-override;
+    text-decoration: underline; */
+    text-decoration: underline wavy;
+    text-transform: capitalize;
+    text-indent: 40PX;
+    letter-spacing: 2PX;
+    line-height: 2rem;
+    word-spacing: 5px;
+    white-space: normal;
+}

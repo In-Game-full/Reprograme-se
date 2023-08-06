@@ -1,0 +1,15 @@
+h1{
+    position: relative;
+    text-align: center;
+    col
+}
+h1::after{
+    content: "";
+    background-image: linear-gradient(120deg, #e5ea15, #00c4ff);
+    width: 95%; /* largura da borda*/
+    height: 10px ; /* Altura da borda */
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%) skew(-50deg);
+}

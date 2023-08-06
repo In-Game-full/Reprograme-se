@@ -1,0 +1,56 @@
+h1{
+    position: relative;
+    text-align: center;
+}
+h1::after{
+    content: "";
+    background-image: linear-gradient(120deg, #e5ea15, #00c4ff);
+    width: 95%; /* largura da borda*/
+    height: 10px ; /* Altura da borda */
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%) skew(-50deg);
+}
+
+/* pseudo seletor "after" permite colocar conteudo depois de um determinado seletor */
+#p1::after{
+    content: 'Estou após o parágrafo';
+    color: red;
+}
+#p1::before{
+    content:'Estou antes do parágrafo ';
+    color: red;
+}
+
+/* Seletor para modificar a primeira letra do paragrafo */
+#p3::first-letter{
+    font-size: 200%;
+    color: #e5ea15;
+}
+
+/* seletor para modificar a primeira linha do paragrafo */
+#p4::first-line{
+    background-color: #00c4ff;
+    font-variant: small-caps;
+}
+
+ul>li::marker{
+    content: "📱 ";
+    font-size: 90%;
+}
+
+ol>li::marker{
+    color: #e5ea15;
+}
+
+a[href^=http]{
+    display: block;
+    font-weight: bold;
+}
+a[href]
+
+a[href$=".pdf"]::after{
+    content: "(.pdf)";
+}
+
