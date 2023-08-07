@@ -208,8 +208,10 @@ VALOR: 1.2 pontos: 0.4 do seletor e 0.2 de cada letra
     text-decoration: none;
     color: white;
     background-color: var(--corPrincipal);
-    padding: 2%;
+    padding: 5px;
+    margin-top: auto;
     max-width: 100%;
+    
     font-size: 1.5vw;
     border-radius: 1vw;
     font-weight: bold;

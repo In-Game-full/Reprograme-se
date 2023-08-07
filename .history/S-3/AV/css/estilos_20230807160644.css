@@ -185,7 +185,8 @@ VALOR: 1.2 pontos: 0.4 do seletor e 0.2 de cada letra
     font-family: "Caveat", sans-serif;
     font-size: 3vw;
     color: var(--corClara);
-    line-height: 3vw;
+    height: 3vw;
+    margin-bottom: 0;
   display: inline-block;
 }
 
@@ -208,8 +209,10 @@ VALOR: 1.2 pontos: 0.4 do seletor e 0.2 de cada letra
     text-decoration: none;
     color: white;
     background-color: var(--corPrincipal);
-    padding: 2%;
+    padding: 5px;
+    margin-top: 25px;
     max-width: 100%;
+    border-collapse: separate;
     font-size: 1.5vw;
     border-radius: 1vw;
     font-weight: bold;
@@ -223,7 +226,6 @@ VALOR: 1.2 pontos: 0.4 do seletor e 0.2 de cada letra
 
 .hero img {
     border-radius: 20px;
-    
 }
 
 .td1 {

@@ -134,7 +134,7 @@ VALOR: 0.8 pontos: 0.2 do seletor e 0.2 de cada letra
 .menu a {
     font-family: "Caveat";
     display: inline-block;
-    padding: 10px 4vw;
+    padding: 1% 4vw;
     font-size: 3vw;
     text-decoration: none;
     color: black;

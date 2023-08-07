@@ -129,6 +129,7 @@ VALOR: 0.8 pontos: 0.2 do seletor e 0.2 de cada letra
 .menu {
     text-align: center;
     padding-bottom: 2rem;
+    max-width: 100%;
 }
 
 .menu a {

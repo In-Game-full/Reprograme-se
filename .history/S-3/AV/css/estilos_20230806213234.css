@@ -67,6 +67,7 @@ VALOR: 0.6 pontos: 0.3 do seletor e 0.3 da letra a)
 
 
 
+
 /* 
 04. Criar uma classe CSS chamada "logo" para configurar o logotipo. Ela deve ter as seguintes configurações:
 a) largura de 1%
@@ -96,7 +97,6 @@ VALOR: 0.6 pontos: 0.2 do seletor e 0.2 de cada letra
 /* define o tamanho da fonte para elementos B descendentes de elementos da classe "header" */
 .header b {
     font-size: 4vw;
-    
     margin-left: 2%;
 }
 
@@ -124,7 +124,6 @@ VALOR: 0.8 pontos: 0.2 do seletor e 0.2 de cada letra
     border-spacing: 2vw;
     
 }
-
 
 .menu {
     text-align: center;
@@ -163,9 +162,6 @@ VALOR: 0.8 pontos: 0.4 do seletor e 0.2 de cada letra
     background-color: var(--corEscura);
 }
 
-.hero td{
-    max-width: 100%;
-}
 
 .hero h1 {
     font-size: 4vw;
@@ -182,11 +178,12 @@ d) altura de linha de 3vw
 VALOR: 1.2 pontos: 0.4 do seletor e 0.2 de cada letra
 */
 .hero h2{
-    font-family: "Caveat", sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3vw;
     color: var(--corClara);
-    line-height: 3vw;
-  display: inline-block;
+    height: 3vw;
+    display: inline-block;
+    
 }
 
 
@@ -208,8 +205,9 @@ VALOR: 1.2 pontos: 0.4 do seletor e 0.2 de cada letra
     text-decoration: none;
     color: white;
     background-color: var(--corPrincipal);
-    padding: 2%;
-    max-width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    width: 5.9vw;
     font-size: 1.5vw;
     border-radius: 1vw;
     font-weight: bold;
@@ -223,7 +221,6 @@ VALOR: 1.2 pontos: 0.4 do seletor e 0.2 de cada letra
 
 .hero img {
     border-radius: 20px;
-    
 }
 
 .td1 {
@@ -302,7 +299,7 @@ border: solid 1px var(--corEscura);
     color: white;
 }
 .formcontato button[type=submit]:hover{
-     outline: solid 2px var(--corTerciaria);
+     outline: solid 4px var(--corTerciaria);
     outline-offset: -2px;
     background-image: linear-gradient(to right, #314755 0%, var(--corPrincipal) 51%, #314755 100%);
     color: var(--corSecundaria);
