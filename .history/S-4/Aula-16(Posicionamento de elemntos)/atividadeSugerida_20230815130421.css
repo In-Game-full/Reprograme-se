@@ -1,0 +1,22 @@
+body{
+    background-color: beige;
+}
+div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.div1{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    display: flexbox;
+    justify-content: center
+}
+
+#div2{
+    background-color: yellow;
+    display: flexbox;
+    justify-content: center;
+}

@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+}
+
+#div1{
+    background-color: blue;
+    width: 1000px;
+    height: 1000px;
+}
+#div2{
+    background-color: greenyellow ;
+    width: 500px;
+    height: 500px;
+}
+#div3{
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+}
+

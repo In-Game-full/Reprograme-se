@@ -1,0 +1,14 @@
+body{
+    background-color: beige;
+    width: 1200px;
+    height: 1200px;
+}
+
+.div1{
+    background-color: aqua;
+    max-width: 40%;
+    max-height: 40%;
+    width: 500px;
+    height: 500px;
+    letter-spacing: ;
+}

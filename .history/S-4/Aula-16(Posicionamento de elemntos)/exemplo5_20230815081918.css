@@ -1,0 +1,22 @@
+body{
+    background-color: azure;
+}
+
+#div1, #div2 {
+    width: 500px;
+    height: 700px;
+}
+
+#div1{
+    background-color: yellowgreen;
+}
+
+#div2{
+    background-color: blue;
+}
+
+#div3{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}

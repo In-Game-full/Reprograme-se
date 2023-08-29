@@ -1,0 +1,42 @@
+*{
+    border: solid 3px black;
+}
+
+#ad {
+    display: inline;
+}
+
+.as:first-of-type{
+    display: block;
+}
+
+#div1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+}
+#div2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+    /* display: none; */ /* retira a redenrização do elemento */
+    visibility: hidden ;/* mostra o elemento mas não aparece na tela*/
+}
+#div3{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+}
+
+#spc{
+    height: 100px;
+    width: 300px;
+}
+
+#spl{
+    height: 100px;
+    width: 300px;
+}

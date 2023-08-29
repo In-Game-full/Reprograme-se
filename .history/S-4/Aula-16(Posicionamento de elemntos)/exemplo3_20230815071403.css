@@ -1,0 +1,9 @@
+body{
+    background-image: url();
+    height: 3000px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}

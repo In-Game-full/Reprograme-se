@@ -1,0 +1,44 @@
+body{
+    background-color: beige;
+}
+div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.div1{
+    background-color: green;
+    width: 700px;
+    height: 700px;
+    left: 35%;
+    top:5%;
+    opacity: 0.7;
+}
+
+#div2{
+    background-color: yellow;
+    left: 0;
+    opacity: 0.5;
+}
+
+#div3{
+    background-color: brown;
+    left: 250px;
+    top: 250px;
+    opacity: 0.5;
+}
+
+#div4{
+    background-color: chocolate;
+    top: 500px;
+    opacity: 0.5;
+}
+
+.rodape{
+    background-color: violet;
+    width: 100%;
+    left: -2px;
+    top: 30vw;
+    mar
+}

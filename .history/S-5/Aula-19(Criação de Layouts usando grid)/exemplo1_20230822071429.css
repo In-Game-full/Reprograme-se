@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 95vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 15vh 65vh 20vh;
+}
+
+header, nav, article, footer{
+    padding: 20px;
+    color: antiquewhite;
+    font-size: 2rem;
+    border: 5px solid coral;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-color: aquamarine;
+    grid-column: span 12;
+}
+
+nav{
+    background-color: violet;
+    grid-column: span 3;
+}
+
+article{
+    background-color: yellow;
+    grid-column: span 9;
+}
+
+footer{
+    background-color: red;
+    grid-column: span ;
+}

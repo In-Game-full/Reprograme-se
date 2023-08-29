@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+    height: 3000px;
+}
+div{
+    display: inline-block;
+}
+#div1{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+#div2{
+    background-color: greenyellow ;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+#div3{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    height: 50px;
+    bottom: 50px;
+}
+

@@ -1,0 +1,20 @@
+body{
+    background-color: tomato;
+    margin: 10px;
+}
+
+.conteiner > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: chartreuse;
+}
+
+.conteiner > div:nth-child(1n){
+    background-color: blueviolet;
+}
+
+.conteiner > div:nth-child(2n){
+    background-color: blueviolet;
+}

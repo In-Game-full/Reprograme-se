@@ -1,0 +1,12 @@
+body{
+    background-color: azure;
+}
+
+#div1, #div2 {
+    width: 500px;
+    height: 700px;
+}
+
+#div1{
+    background-color: yellowgreen;
+}

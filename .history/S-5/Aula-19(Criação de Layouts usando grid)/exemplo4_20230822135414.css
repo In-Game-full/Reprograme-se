@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica neue", Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: bisque;
+    margin: 10px;
+}
+
+main{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12fr, 1fr);
+    grid-template-rows: 50px 500px 50px ;
+}
+
+header, nav, article, footer{
+    color: rgb(193, 105, 105);
+    font-size: 2rm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+header{
+    background-color: blueviolet;
+    grid-column: 1 / -1;
+}
+nav{
+    background-color: azure;
+    grid-column: 1 / 3;
+}
+
+article{
+    background-color: yellowgreen;
+    color: blueviolet;
+    grid-column: 4 / -1;
+}
+footer{
+    background-color: teal;
+    grid-column: 1 / -1;
+}

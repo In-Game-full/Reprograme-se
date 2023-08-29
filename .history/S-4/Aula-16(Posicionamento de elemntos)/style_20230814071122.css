@@ -1,0 +1,21 @@
+/* Exemplo 1 */
+/* #div1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    left: 200px;
+    top: 400px;
+    position: static;
+} */
+
+/* Exemplo 2 */
+
+
+#div1{
+    background-color: blue;
+}
+
+#div1{
+    background-color: yellow;
+    position: relative;
+}

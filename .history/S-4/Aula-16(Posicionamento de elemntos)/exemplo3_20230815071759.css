@@ -1,0 +1,17 @@
+body{
+    background-image: url(https://github.com/In-Game-full/Reprograme-se/blob/main/S-4/Aula-16(Posicionamento%20de%20elemntos)/img/figura-triangular-geometrica-legal-em-uma-luz-de-laser-neon-otima-para-fundos-e-papeis-de-parede.jpg);
+    height: 3000px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+#div1 {
+    background-color: blue;
+}
+
+#div2{
+    background-color: green;
+}

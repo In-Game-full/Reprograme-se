@@ -1,0 +1,12 @@
+body{
+    background-color: beige;
+}
+
+.div1{
+    background-color: aqua;
+    max-width: 40%;
+    max-height: 40%;
+    width: 500px;
+    height: 500px;
+    
+}

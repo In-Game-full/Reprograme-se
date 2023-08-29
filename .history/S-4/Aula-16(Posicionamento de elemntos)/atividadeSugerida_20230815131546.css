@@ -1,0 +1,36 @@
+body{
+    background-color: beige;
+}
+div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.div1{
+    background-color: green;
+    width: 800px;
+    height: 800px;
+}
+
+#div2{
+    background-color: yellow;
+    left: 0;
+}
+
+#div3{
+    background-color: brown;
+    left: 300px;
+    top: 300px;
+}
+
+#div4{
+    background-color: chocolate;
+    left: 75%;
+    top: 75%;
+}
+
+.ro{
+    background-color: violet;
+    max-width: 100%;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: beige;
+}
+div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.div1{
+    background-color: green;
+    width: 500px;
+    height: 500px;
+}
+
+#div2{
+    background-color: yellow;
+    left: 0;
+}
+
+#div3{
+    background-color: brown;
+    left: 150px;
+    top: 150px;
+}

@@ -1,0 +1,9 @@
+body{
+    background-color: beige;
+}
+
+.div1{
+    background-color: aqua;
+    max-width: 40%;
+    max-height: 10%;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: beige;
+}
+div{
+    width: 500px;
+    height: 00px;
+    position: absolute;
+}
+
+.div1{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+}

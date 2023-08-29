@@ -1,0 +1,41 @@
+body{
+    background-color: rgba(132, 71, 255, 0.363);
+    margin: 10px;
+}
+
+.conteiner > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(251, 247, 247);
+}
+
+.conteiner > div:nth-child(1n){
+    background-color: blueviolet;
+}
+
+.conteiner > div:nth-child(2n){
+    background-color: rgb(43, 226, 52);
+}
+
+.conteiner > div:nth-child(3n){
+    background-color: rgb(43, 162, 226);
+}
+
+.conteiner > div:nth-child(4n){
+    background-color: rgb(226, 43, 128);
+}
+
+.conteiner > div:nth-child(5n){
+    background-color: rgb(226, 125, 43);
+}
+
+.conteiner > div:nth-child(6n){
+    background-color: rgb(226, 43, 61);
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 100px ;
+}
