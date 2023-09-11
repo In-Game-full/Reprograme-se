@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/S-6-InicioBootstrap5/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Validação de formulários</title>
+</head>
+
+<body>
+    <div class="container my-3">
+        <h1 class="display-3">Endereço</h1>
+        <hr>
+        <form method="post">
+            <div class="row mb-4 g-4">
+                <div class="col-7">
+                    <label for="logradouro" class="form-label">Logradouro</label>
+                    <input type="text" class="form-control" id="logradouro" required>
+                </div>
+                <div class="col-2">
+                    <label for="numero" class="form-label">numero</label>
+                    <input type="text" class="form-control" id="numero">
+                </div>
+                <div class="col-3">
+                    <label for="complemento" class="form-label">complemento</label>
+                    <input type="text" class="form-control" id="complemento">
+                </div>
+                <div class="col-6">
+                    <label for="bairro" class="form-label">bairro</label>
+                    <input type="text" class="form-control" id="bairro">
+                </div>
+                <div class="col-6">
+                    <label for="cidade" class="form-label">cidade</label>
+                    <input type="text" class="form-control" id="cidade">
+                </div>
+                <div class="col-6">
+                    <label for="estado" class="form-label">estado</label>
+                    <input type="text" class="form-control" id="estado">
+                </div>
+                <div class="col-4">
+                    <label for="cep" class="form-label">cep</label>
+                    <input type="text" class="form-control" id="cep" pattern="[0-9]{8}" required>
+                </div>
+                div.col-12>div.form-check>input.form-check-input[type="checkbox"+value=""#termos]+label.form-check-label[for="termos"]
+
+                <button class="btn btn-primary">Cadastrar</button>
+            </div>
+        </form>
+</body>
+
+</html>
