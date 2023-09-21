@@ -3,17 +3,18 @@
     "development"
   ],
   "hints": {
-    "axe/structure": [
-      "default",
-      {
-        "list": "off"
-      }
-    ],
+    "disown-opener": "off",
     "no-inline-styles": "off",
     "axe/aria": [
       "default",
       {
         "aria-progressbar-name": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
       }
     ]
   }
