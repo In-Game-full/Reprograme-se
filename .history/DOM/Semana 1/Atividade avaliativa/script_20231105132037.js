@@ -12,5 +12,5 @@ for (let i = 0; i < precos.length; i++){
 document.write('<p>Total: R$ ' +  total);
 
 //Conciderações
-document.write('<p> Quando entrei a atividade ja estava pronta, crédito da colega <strong>Veronica Pascoal</strong>... Refiz a atividade no VsCode, mas não vejo necessidade de reenviar.' + '<p> PS: Erickson Nascimento');
+document.write('<p> Quando entrei a atividade ja estava pronta, crédito da colega <strong>Veronica Pascoal</strong>... Refiz a atividade no VsCode, mas não vejo necessidade de reenviar.' + '<p> PS: Erickson Na');
 
